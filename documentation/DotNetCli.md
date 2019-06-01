@@ -22,7 +22,7 @@ Update the project file as follows to apply settings and custom rules:
 ```xml
 <PropertyGroup>
     ...
-    <CodeAnalysisRuleSet>stylecop.ruleset</CodeAnalysisRuleSet>
+    <CodeAnalysisRuleSet>stylecop.json</CodeAnalysisRuleSet>
 </PropertyGroup>
 <ItemGroup>
     <AdditionalFiles Include="stylecop.json" />
